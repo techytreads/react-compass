@@ -1,6 +1,7 @@
 import React from 'react';
-import Instructions from './Instructions';
+import OnlineInteractions from './OnlineInteractions';
 import './App.css';
+import AvatarLabel from './AvatarLabel';
 
 function App() {
   return (
@@ -8,8 +9,14 @@ function App() {
       <header className="App-header">
    
         <p>
-          <Instructions/>
-        </p>
+        <AvatarLabel/>
+          </p>
+          <p>
+          <OnlineInteractions/>
+          </p>
+          
+       
+       
         
       </header>
     </div>
